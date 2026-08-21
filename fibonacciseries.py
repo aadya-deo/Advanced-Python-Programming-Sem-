@@ -1,4 +1,4 @@
-# recursive function -> memoization approach without storage of subpart values 
+# recursive function -> memoization approach without storage of subpart values [use of arrays]
 def fiboRecur(n):
     if n == 0:
         return 0
@@ -7,7 +7,7 @@ def fiboRecur(n):
     else:
         return fiboRecur(n-1)+fiboRecur(n-2)
     
-# iterative function -> tabulation approach without storage of subpart values
+# iterative function -> tabulation approach without storage of subpart values [use of arrays]
 def fiboIter(n):
     prev_n = 0
     curr_n = 1
